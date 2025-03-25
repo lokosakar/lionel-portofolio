@@ -1,0 +1,59 @@
+.portfolio-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f0f8ff, #e0ffff);
+  padding: 20px 0;
+}
+
+.content-container {
+  display: flex;
+  width: 80%;
+  max-width: 1200px;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.name-section {
+  flex: 2;
+  padding-right: 30px;
+}
+
+.name-section h1 {
+  font-size: 3.5em;
+  font-weight: 600;
+  background: linear-gradient(to right, #4CAF50, #8BC34A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 15px;
+}
+
+.name-section p {
+  font-size: 1.2em;
+  line-height: 1.7;
+  color: black; /* Changed to black */
+}
+
+.photo-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo-section img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Add dark green background to the container */
+.portfolio-container {
+  background: linear-gradient(135deg, #f0f8ff, #e0ffff);
+  background-color: #006400;
+}
